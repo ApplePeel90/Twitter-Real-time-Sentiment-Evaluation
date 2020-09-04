@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Implementation-Title: Netty/Common
+Bundle-Description: Netty is an asynchronous event-driven network appl
+ ication framework for    rapid development of maintainable high perfo
+ rmance protocol servers and    clients.
+Automatic-Module-Name: io.netty.common
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-SymbolicName: io.netty.common
+Implementation-Version: 4.1.45.Final
+Built-By: root
+Bnd-LastModified: 1578906972445
+Bundle-ManifestVersion: 2
+Implementation-Vendor-Id: io.netty
+Bundle-DocURL: https://netty.io/
+Bundle-Vendor: The Netty Project
+Import-Package: sun.misc;resolution:=optional,com.oracle.svm.core.anno
+ tate;resolution:=optional,javax.security.cert;resolution:=optional,or
+ g.apache.commons.logging;resolution:=optional;version="[1.2,2)",org.a
+ pache.log4j;resolution:=optional;version="[1.2,2)",org.apache.logging
+ .log4j;resolution:=optional;version="[2.6,3)",org.apache.logging.log4
+ j.message;resolution:=optional;version="[2.6,3)",org.apache.logging.l
+ og4j.spi;resolution:=optional;version="[2.6,3)",org.slf4j;resolution:
+ =optional;version="[1.7,2)",org.slf4j.helpers;resolution:=optional;ve
+ rsion="[1.7,2)",org.slf4j.spi;resolution:=optional;version="[1.7,2)",
+ reactor.blockhound;resolution:=optional,reactor.blockhound.integratio
+ n;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+DynamicImport-Package: *
+Tool: Bnd-2.4.1.201501161923
+Implementation-Vendor: The Netty Project
+Export-Package: io.netty.util;uses:="io.netty.util.concurrent,io.netty
+ .util.internal";version="4.1.45",io.netty.util.collection;version="4.
+ 1.45",io.netty.util.concurrent;uses:="io.netty.util.internal";version
+ ="4.1.45",io.netty.util.internal;uses:="io.netty.util,io.netty.util.c
+ oncurrent,io.netty.util.internal.logging,javax.security.cert,reactor.
+ blockhound,reactor.blockhound.integration";version="4.1.45",io.netty.
+ util.internal.logging;version="4.1.45",io.netty.util.internal.svm;ver
+ sion="4.1.45"
+Bundle-Name: Netty/Common
+Bundle-Version: 4.1.45.Final
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_222
+Implementation-URL: https://netty.io/netty-common/
+

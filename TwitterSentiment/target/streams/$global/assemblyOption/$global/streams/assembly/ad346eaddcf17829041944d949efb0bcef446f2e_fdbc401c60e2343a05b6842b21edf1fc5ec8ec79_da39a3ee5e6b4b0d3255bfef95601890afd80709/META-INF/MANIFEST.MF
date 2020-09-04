@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1569532416348
+Build-Jdk: 1.8.0_162
+Built-By: tatu
+Bundle-Description: Support for reading and writing CSV-encoded data v
+ ia Jacksonabstractions.
+Bundle-DocURL: https://github.com/FasterXML/jackson-dataformats-text
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackson-dataformat-CSV
+Bundle-SymbolicName: com.fasterxml.jackson.dataformat.jackson-dataform
+ at-csv
+Bundle-Vendor: FasterXML
+Bundle-Version: 2.10.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.fasterxml.jackson.dataformat.csv;version="2.10.0";
+ uses:="com.fasterxml.jackson.core,com.fasterxml.jackson.core.base,com
+ .fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.fast
+ erxml.jackson.core.json,com.fasterxml.jackson.core.type,com.fasterxml
+ .jackson.core.util,com.fasterxml.jackson.databind,com.fasterxml.jacks
+ on.databind.cfg,com.fasterxml.jackson.databind.util,com.fasterxml.jac
+ kson.dataformat.csv.impl",com.fasterxml.jackson.dataformat.csv.impl;v
+ ersion="2.10.0";uses:="com.fasterxml.jackson.core,com.fasterxml.jacks
+ on.core.format,com.fasterxml.jackson.core.io,com.fasterxml.jackson.co
+ re.json,com.fasterxml.jackson.core.util,com.fasterxml.jackson.datafor
+ mat.csv"
+Implementation-Build-Date: 2019-09-26 21:12:50+0000
+Implementation-Title: Jackson-dataformat-CSV
+Implementation-Vendor: FasterXML
+Implementation-Vendor-Id: com.fasterxml.jackson.dataformat
+Implementation-Version: 2.10.0
+Import-Package: com.fasterxml.jackson.core;version="[2.10,3)",com.fast
+ erxml.jackson.core.base;version="[2.10,3)",com.fasterxml.jackson.core
+ .format;version="[2.10,3)",com.fasterxml.jackson.core.io;version="[2.
+ 10,3)",com.fasterxml.jackson.core.json;version="[2.10,3)",com.fasterx
+ ml.jackson.core.type;version="[2.10,3)",com.fasterxml.jackson.core.ut
+ il;version="[2.10,3)",com.fasterxml.jackson.databind;version="[2.10,3
+ )",com.fasterxml.jackson.databind.cfg;version="[2.10,3)",com.fasterxm
+ l.jackson.databind.introspect;version="[2.10,3)",com.fasterxml.jackso
+ n.databind.util;version="[2.10,3)",com.fasterxml.jackson.dataformat.c
+ sv;version="[2.10,3)",com.fasterxml.jackson.dataformat.csv.impl;versi
+ on="[2.10,3)"
+Private-Package: com.fasterxml.jackson.dataformat.csv.impl
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Specification-Title: Jackson-dataformat-CSV
+Specification-Vendor: FasterXML
+Specification-Version: 2.10.0
+Tool: Bnd-4.2.0.201903051501
+X-Compile-Source-JDK: 1.7
+X-Compile-Target-JDK: 1.7
+

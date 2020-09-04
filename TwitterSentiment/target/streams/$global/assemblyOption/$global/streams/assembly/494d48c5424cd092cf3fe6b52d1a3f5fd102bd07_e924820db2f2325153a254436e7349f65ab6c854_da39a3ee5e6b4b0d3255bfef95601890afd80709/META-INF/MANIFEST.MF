@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache Bahir - Spark Streaming Twitter
+Implementation-Version: 2.4.0
+Built-By: lresende
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Apache Bahir - Spark Streaming Twitter
+Implementation-Vendor-Id: org.apache.bahir
+Created-By: Apache Maven 3.6.0
+Build-Jdk: 1.8.0_181
+Specification-Version: 2.4
+Implementation-URL: http://bahir.apache.org/
+Implementation-Vendor: The Apache Software Foundation
+

@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1569481123840
+Build-Jdk: 1.8.0_162
+Built-By: tatu
+Bundle-Description: Add-on module for Jackson (http://jackson.codehaus
+ .org) to supportJDK 8 data types.
+Bundle-DocURL: https://github.com/FasterXML/jackson-modules-java8/jack
+ son-datatype-jdk8
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Jackson datatype: jdk8
+Bundle-SymbolicName: com.fasterxml.jackson.datatype.jackson-datatype-j
+ dk8
+Bundle-Vendor: FasterXML
+Bundle-Version: 2.10.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.fasterxml.jackson.datatype.jdk8;version="2.10.0";u
+ ses:="com.fasterxml.jackson.core,com.fasterxml.jackson.core.io,com.fa
+ sterxml.jackson.databind,com.fasterxml.jackson.databind.deser,com.fas
+ terxml.jackson.databind.deser.std,com.fasterxml.jackson.databind.json
+ FormatVisitors,com.fasterxml.jackson.databind.jsontype,com.fasterxml.
+ jackson.databind.ser,com.fasterxml.jackson.databind.ser.impl,com.fast
+ erxml.jackson.databind.ser.std,com.fasterxml.jackson.databind.type,co
+ m.fasterxml.jackson.databind.util"
+Implementation-Build-Date: 2019-09-26 06:48:52+0000
+Implementation-Title: Jackson datatype: jdk8
+Implementation-Vendor: FasterXML
+Implementation-Vendor-Id: com.fasterxml.jackson.datatype
+Implementation-Version: 2.10.0
+Import-Package: com.fasterxml.jackson.core;version="[2.10,3)",com.fast
+ erxml.jackson.core.io;version="[2.10,3)",com.fasterxml.jackson.core.u
+ til;version="[2.10,3)",com.fasterxml.jackson.databind;version="[2.10,
+ 3)",com.fasterxml.jackson.databind.deser;version="[2.10,3)",com.faste
+ rxml.jackson.databind.deser.std;version="[2.10,3)",com.fasterxml.jack
+ son.databind.jsonFormatVisitors;version="[2.10,3)",com.fasterxml.jack
+ son.databind.jsontype;version="[2.10,3)",com.fasterxml.jackson.databi
+ nd.ser;version="[2.10,3)",com.fasterxml.jackson.databind.ser.impl;ver
+ sion="[2.10,3)",com.fasterxml.jackson.databind.ser.std;version="[2.10
+ ,3)",com.fasterxml.jackson.databind.type;version="[2.10,3)",com.faste
+ rxml.jackson.databind.util;version="[2.10,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: Jackson datatype: jdk8
+Specification-Vendor: FasterXML
+Specification-Version: 2.10.0
+Tool: Bnd-4.2.0.201903051501
+X-Compile-Source-JDK: 1.8
+X-Compile-Target-JDK: 1.8
+

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: scala-java8-compat
+Implementation-Version: 0.9.0
+Specification-Vendor: org.scala-lang.modules
+Specification-Title: scala-java8-compat
+Implementation-Vendor-Id: org.scala-lang.modules
+Specification-Version: 0.9.0
+Implementation-URL: http://www.scala-lang.org/
+Implementation-Vendor: org.scala-lang.modules
+

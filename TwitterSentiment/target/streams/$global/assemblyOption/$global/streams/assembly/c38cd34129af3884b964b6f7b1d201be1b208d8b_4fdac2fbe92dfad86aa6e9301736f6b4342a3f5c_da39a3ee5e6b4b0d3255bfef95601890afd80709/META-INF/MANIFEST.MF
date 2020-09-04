@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1499958728764
+Build-Jdk: 1.8.0_73
+Built-By: prholser
+Bundle-Description: A Java library for parsing command line options
+Bundle-License: http://www.opensource.org/licenses/mit-license.php
+Bundle-ManifestVersion: 2
+Bundle-Name: jopt-simple
+Bundle-SymbolicName: net.sf.jopt-simple.jopt-simple
+Bundle-Vendor: JOpt Simple
+Bundle-Version: 5.0.4
+Created-By: Apache Maven Bundle Plugin
+Export-Package: joptsimple;uses:="joptsimple.util";version="5.0.4",jopts
+ imple.util;uses:=joptsimple;version="5.0.4"
+Tool: Bnd-1.50.0

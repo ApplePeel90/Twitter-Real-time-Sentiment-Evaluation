@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: Apache Yetus - Audience Annotations
+Implementation-Version: 0.5.0
+Archiver-Version: Plexus Archiver
+Built-By: aw
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Apache Yetus - Audience Annotations
+Implementation-Vendor-Id: org.apache.yetus
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_92
+Specification-Version: 0.5.0
+Implementation-Vendor: The Apache Software Foundation
+

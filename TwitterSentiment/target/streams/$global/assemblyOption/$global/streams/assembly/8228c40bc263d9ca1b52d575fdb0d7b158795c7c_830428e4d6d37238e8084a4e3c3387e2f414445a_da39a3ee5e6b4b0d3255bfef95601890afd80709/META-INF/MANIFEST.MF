@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1559079282401
+Bundle-Description: scala-logging
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html;descri
+ ption=Apache 2.0 License
+Bundle-ManifestVersion: 2
+Bundle-Name: scala-logging
+Bundle-SymbolicName: com.typesafe.scala-logging
+Bundle-Vendor: com.typesafe.scala-logging
+Bundle-Version: 3.9.2
+Created-By: 1.8.0_144 (Oracle Corporation)
+Export-Package: com.typesafe.scalalogging;uses:="org.slf4j,scala,scala
+ .collection,scala.collection.immutable,scala.reflect,scala.reflect.ap
+ i,scala.reflect.macros,scala.reflect.macros.blackbox,scala.runtime";v
+ ersion="3.9.2"
+Implementation-Title: scala-logging
+Implementation-URL: https://github.com/lightbend/scala-logging
+Implementation-Vendor: com.typesafe.scala-logging
+Implementation-Vendor-Id: com.typesafe.scala-logging
+Implementation-Version: 3.9.2
+Import-Package: org.slf4j;version="[1.7,2)",scala;version="[2.11,3)",s
+ cala.collection;version="[2.11,3)",scala.collection.generic;version="
+ [2.11,3)",scala.collection.immutable;version="[2.11,3)",scala.collect
+ ion.mutable;version="[2.11,3)",scala.reflect;version="[2.11,3)",scala
+ .reflect.api;version="[2.11,3)",scala.reflect.internal;version="[2.11
+ ,3)",scala.reflect.macros;version="[2.11,3)",scala.reflect.macros.bla
+ ckbox;version="[2.11,3)",scala.runtime;version="[2.11,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Specification-Title: scala-logging
+Specification-Vendor: com.typesafe.scala-logging
+Specification-Version: 3.9.2
+Tool: Bnd-4.2.0.201903051501
+

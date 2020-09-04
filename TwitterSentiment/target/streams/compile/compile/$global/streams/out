@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/qiwang/Desktop/UTD/6350_002_BigData/Assignment/AS3/AS3/Part1/TwitterSentiment/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/qiwang/Desktop/UTD/6350_002_BigData/Assignment/AS3/AS3/Part1/TwitterSentiment/src/main/scala/SentimentAnalysis.scala:16:48: imported `Sentiment' is permanently hidden by definition of object Sentiment[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport edu.stanford.nlp.pipeline.CoreNLPProtos.Sentiment[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/qiwang/Desktop/UTD/6350_002_BigData/Assignment/AS3/AS3/Part1/TwitterSentiment/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock.[0m
